@@ -1,0 +1,124 @@
+Uri: http://braveandheart.com/
+File Name: c:\Downloaded Web Sites\braveandheart.com\index.html
+Content Type: text/html
+
+Uri: http://braveandheart.com/css/normalise.css
+File Name: c:\Downloaded Web Sites\braveandheart.com\css\normalise.css
+Content Type: text/css
+
+Uri: http://braveandheart.com/css/style.css
+File Name: c:\Downloaded Web Sites\braveandheart.com\css\style.css
+Content Type: text/css
+
+Uri: http://braveandheart.com/ff/style.css
+File Name: c:\Downloaded Web Sites\braveandheart.com\ff\style.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Crimson+Text
+File Name: c:\Downloaded Web Sites\braveandheart.com\css.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Montserrat:400,700
+File Name: c:\Downloaded Web Sites\braveandheart.com\css-1.css
+Content Type: text/css
+
+Uri: http://braveandheart.com/index.html
+File Name: c:\Downloaded Web Sites\braveandheart.com\index-1.html
+Content Type: text/html
+
+Uri: https://www.linkedin.com/organization/12907192
+File Name: c:\Downloaded Web Sites\braveandheart.com\organization\12907192.html
+Content Type: text/html
+
+Uri: https://twitter.com/braveandheart
+File Name: c:\Downloaded Web Sites\braveandheart.com\braveandheart.html
+Content Type: text/html
+
+Uri: https://www.googletagmanager.com/gtag/js?id=UA-111340972-1
+File Name: c:\Downloaded Web Sites\braveandheart.com\gtag\js.js
+Content Type: application/javascript
+
+Uri: http://braveandheart.com/js/jquery.js
+File Name: c:\Downloaded Web Sites\braveandheart.com\js\jquery.js
+Content Type: application/javascript
+
+Uri: http://braveandheart.com/js/script-r=1.js
+File Name: c:\Downloaded Web Sites\braveandheart.com\js\script-r=1.js
+Content Type: application/javascript
+
+Uri: http://braveandheart.com/img/id-logo-1.png
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\id-logo-1.png
+Content Type: image/png
+
+Uri: http://braveandheart.com/img/id-logo-2.png
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\id-logo-2.png
+Content Type: image/png
+
+Uri: http://braveandheart.com/img/dp.jpg
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\dp.jpeg
+Content Type: image/jpeg
+
+Uri: http://braveandheart.com/img/cg.jpg
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\cg.jpeg
+Content Type: image/jpeg
+
+Uri: http://braveandheart.com/img/al.jpg
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\al.jpeg
+Content Type: image/jpeg
+
+Uri: http://braveandheart.com/img/jl.jpg
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\jl.jpeg
+Content Type: image/jpeg
+
+Uri: http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js
+File Name: c:\Downloaded Web Sites\braveandheart.com\downloads.mailchimp.com\js\mc-validate.js
+Content Type: application/javascript
+
+Uri: http://braveandheart.com/img/bh-logo.png
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\bh-logo.png
+Content Type: image/png
+
+Uri: http://braveandheart.com/img/hr.png
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\hr.png
+Content Type: image/png
+
+Uri: http://braveandheart.com/img/banner-mobile.jpg
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\banner-mobile.jpeg
+Content Type: image/jpeg
+
+Uri: http://braveandheart.com/img/banner.jpg
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\banner.jpeg
+Content Type: image/jpeg
+
+Uri: http://braveandheart.com/img/arrow.png
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\arrow.png
+Content Type: image/png
+
+Uri: http://braveandheart.com/img/why-banner.jpg
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\why-banner.jpeg
+Content Type: image/jpeg
+
+Uri: http://braveandheart.com/img/contact-banner.jpg
+File Name: c:\Downloaded Web Sites\braveandheart.com\img\contact-banner.jpeg
+Content Type: image/jpeg
+
+Uri: http://braveandheart.com/ff/fonts/id-icons-3l3f3i.eot
+File Name: c:\Downloaded Web Sites\braveandheart.com\ff\fonts\id-icons-3l3f3i.eot
+Content Type: 
+
+Uri: http://braveandheart.com/ff/fonts/id-icons-.eot
+File Name: c:\Downloaded Web Sites\braveandheart.com\ff\fonts\id-icons-.eot
+Content Type: 
+
+Uri: http://braveandheart.com/ff/fonts/id-icons-3l3f3i.ttf
+File Name: c:\Downloaded Web Sites\braveandheart.com\ff\fonts\id-icons-3l3f3i.ttf
+Content Type: 
+
+Uri: http://braveandheart.com/ff/fonts/id-icons-3l3f3i.woff
+File Name: c:\Downloaded Web Sites\braveandheart.com\ff\fonts\id-icons-3l3f3i.woff
+Content Type: 
+
+Uri: http://braveandheart.com/ff/fonts/id-icons-3l3f3i.svg
+File Name: c:\Downloaded Web Sites\braveandheart.com\ff\fonts\id-icons-3l3f3i.svg
+Content Type: image/svg+xml
+
