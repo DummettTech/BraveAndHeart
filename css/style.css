@@ -333,9 +333,10 @@ section.banner .before {
 	display: block;
 	padding: 120% 0 0 0;
 	background: url("../img/banner.jpeg") 0 0 no-repeat fixed;
-	background-size: cover;
-    height: 100%;
-    width: 100%;
+	top: 0;
+	left: 0;
+    min-height: 100%;
+    min-width: 100%;
     overflow: hidden;
 
 }
@@ -661,8 +662,13 @@ section#why {
 	padding: 1em;
 	color: white;
 	background: url("../img/why-banner.jpeg") 0 0 no-repeat fixed;
-	background-size: cover;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
 }
+
+
 
 section#why h1 {
 	color: white;
