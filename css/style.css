@@ -35,6 +35,7 @@ a.button {
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
+	background-color: #c40000;
 }
 
 a.button:hover {
@@ -327,22 +328,6 @@ section.banner {
 	text-align: left;
 }
 
-@media only screen and (min-width: 375px){
-section.banner .before {
-
-    display: block;
-	padding: 120% 0 0 0;
-	background: url("../img/banner-mobile.jpeg") 0 0 no-repeat fixed;
-	background-size: cover;
-    height: 100%;
-    width: 100%;
-	overflow: hidden;
-
-	}
-}
-
-
-@media only screen and (min-width: 1025px){
 section.banner .before {
     
 	display: block;
@@ -353,9 +338,7 @@ section.banner .before {
     width: 100%;
     overflow: hidden;
 
-    }
 }
-
 
 section.banner .arrow {
 	display: block;
@@ -769,12 +752,23 @@ section#why h1 {
 	}
 }
 
+
 #contact {
-	background: url("../img/contact-banner.jpeg") 50% 0 no-repeat fixed;
+	background-color: #1e1a1b;
 	background-size: cover;
 	color: white;
 	font-size: 0.6em;
 }
+
+@media (min-width: 768px){
+	#contact {
+		background: url("../img/contact-banner.jpeg") 50% 0 no-repeat fixed;
+		background-size: cover;
+		color: white;
+		font-size: 0.6em;
+	}
+}
+
 
 #contact .social {
 	float: right;
