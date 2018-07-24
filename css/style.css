@@ -332,13 +332,22 @@ section.banner .before {
     
 	display: block;
 	padding: 120% 0 0 0;
-	background: url("../img/banner.jpeg") 0 0 no-repeat fixed;
+	background: url("../img/banner.jpeg") no-repeat fixed;
 	top: 0;
 	left: 0;
     min-height: 100%;
     min-width: 100%;
     overflow: hidden;
 
+}
+
+@media (min-width: 768px){
+	section.banner .before {
+		background: url("../img/banner.jpeg") 0 0 no-repeat fixed;
+		background-size: cover;
+		color: white;
+		font-size: 0.6em;
+	}
 }
 
 section.banner .arrow {
@@ -668,6 +677,13 @@ section#why {
 	min-width: 100%;
 }
 
+@media (min-width: 768px){
+	section#why {
+		background: url("../img/why-banner.jpeg") 0 0 no-repeat fixed;
+		background-size: cover;
+		color: white;
+	}
+}
 
 
 section#why h1 {
