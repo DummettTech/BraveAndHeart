@@ -340,15 +340,17 @@ section.banner .before {
     overflow: hidden;
 
 }
-
-@media (min-width: 768px){
-	section.banner .before {
-		background: url("../img/banner.jpeg") 0 0 no-repeat fixed;
-		background-size: cover;
-		color: white;
-		font-size: 0.6em;
+@supports not (-webkit-overflow-scrolling: touch) {
+	@media (min-width: 768px){
+		section.banner .before {
+			background: url("../img/banner.jpeg") 0 0 no-repeat fixed;
+			background-size: cover;
+			color: white;
+			font-size: 0.6em;
+		}
 	}
 }
+
 
 section.banner .arrow {
 	display: block;
@@ -677,13 +679,16 @@ section#why {
 	min-width: 100%;
 }
 
-@media (min-width: 768px){
-	section#why {
-		background: url("../img/why-banner.jpeg") 0 0 no-repeat fixed;
-		background-size: cover;
-		color: white;
+@supports not (-webkit-overflow-scrolling: touch) {
+	@media (min-width: 768px){
+		section#why {
+			background: url("../img/why-banner.jpeg") 0 0 no-repeat fixed;
+			background-size: cover;
+			color: white;
+		}
 	}
 }
+
 
 
 section#why h1 {
@@ -777,19 +782,26 @@ section#why h1 {
 
 #contact {
 	background-color: #1e1a1b;
-	background-size: cover;
+	top: 0;
+	left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
 	color: white;
-	font-size: 0.6em;
+	font-size: 16px;
 }
 
-@media (min-width: 768px){
-	#contact {
-		background: url("../img/contact-banner.jpeg") 50% 0 no-repeat fixed;
-		background-size: cover;
-		color: white;
-		font-size: 0.6em;
+@supports not (-webkit-overflow-scrolling: touch) {
+	@media (min-width: 768px){
+		#contact {
+			background: url("../img/contact-banner.jpeg") 50% 0 no-repeat fixed;
+			background-size: cover;
+			color: white;
+			font-size: 16px;
+		}
 	}
 }
+
 
 
 #contact .social {
@@ -809,7 +821,7 @@ section#why h1 {
 }
 
 #contact h2 {
-	font-size: 1.5em;
+	font-size: 1.0em;
 	font-weight: 700;
 	color: white;
 	/*text-transform: uppercase;*/
