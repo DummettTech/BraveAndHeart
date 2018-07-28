@@ -11,7 +11,8 @@
 	width: 100%;
 }
 
-a, a:visited {
+a,
+a:visited {
 	color: #c40000;
 	text-decoration: none;
 }
@@ -85,7 +86,10 @@ hr {
 	line-height: 30px;
 	content: "\e601";
 }
-.social a.twitter:before { content: "\e600"; }
+
+.social a.twitter:before {
+	content: "\e600";
+}
 
 .social a:hover {
 	background: #FFFFFF;
@@ -158,10 +162,17 @@ header nav.main a.opener span {
 	background: #1e1a1b;
 }
 
-header nav.main a.opener span.two { top: 20px; }
-header nav.main a.opener span.three { top: 28px; }
+header nav.main a.opener span.two {
+	top: 20px;
+}
 
-.main-wrapper, header, header nav.main {
+header nav.main a.opener span.three {
+	top: 28px;
+}
+
+.main-wrapper,
+header,
+header nav.main {
 	-webkit-transition: margin 0.5s;
 	-o-transition: margin 0.5s;
 	transition: margin 0.5s;
@@ -169,7 +180,9 @@ header nav.main a.opener span.three { top: 28px; }
 
 .nav-open .main-wrapper,
 .nav-open header,
-.nav-open header nav.main { margin-left: -280px; }
+.nav-open header nav.main {
+	margin-left: -280px;
+}
 
 header nav.main ul {
 	list-style: none;
@@ -200,14 +213,12 @@ header nav.main ul li a {
 	body {
 		padding-top: 122px;
 	}
-
 	header {
 		height: 122px;
 		-webkit-transition: height 0.2s;
 		-o-transition: height 0.2s;
 		transition: height 0.2s;
 	}
-
 	header .logo {
 		display: table;
 		width: auto;
@@ -225,7 +236,6 @@ header nav.main ul li a {
 		-o-transform-origin: 0 0;
 		transform-origin: 0 0;
 	}
-
 	header .logo .t {
 		display: table-cell;
 		vertical-align: middle;
@@ -235,13 +245,11 @@ header nav.main ul li a {
 		-o-transition: opacity 0.2s;
 		transition: opacity 0.2s;
 	}
-
 	header .logo .g {
 		display: table-cell;
 		vertical-align: middle;
 		padding: 0 5px;
 	}
-
 	header nav.main {
 		position: absolute;
 		top: 0;
@@ -251,23 +259,19 @@ header nav.main ul li a {
 		background: transparent;
 		width: auto;
 	}
-
 	header nav.main a.opener {
 		display: none;
 	}
-
 	header nav.main ul {
 		display: table;
 		padding: 0;
 		height: 100%;
 	}
-
 	header nav.main ul li {
 		display: table-cell;
 		vertical-align: middle;
 		padding: 0 2em;
 	}
-
 	header nav.main ul li a {
 		display: block;
 		text-align: center;
@@ -276,7 +280,6 @@ header nav.main ul li a {
 		padding: 0.25em 0;
 		position: relative;
 	}
-
 	header nav.main ul li a:before {
 		content: "";
 		display: block;
@@ -290,22 +293,18 @@ header nav.main ul li a {
 		-o-transition: width 0.2s;
 		transition: width 0.2s;
 	}
-
 	header nav.main ul li a:hover:before {
 		width: 100%;
 	}
-
 	.scrolled header {
 		height: 84px;
 	}
-
 	.scrolled header .logo {
 		-webkit-transform: scale(0.6);
 		-ms-transform: scale(0.6);
 		-o-transform: scale(0.6);
 		transform: scale(0.6);
 	}
-
 	.scrolled header .logo .t {
 		opacity: 0;
 	}
@@ -316,6 +315,8 @@ header nav.main ul li a {
 		padding: 0 3em;
 	}
 }
+
+/* Making section universal and simplistic to impliment */
 
 section.banner {
 	height: 100%;
@@ -329,28 +330,11 @@ section.banner {
 }
 
 section.banner .before {
-    
 	display: block;
 	padding: 120% 0 0 0;
 	background: url("../img/banner.jpeg") no-repeat fixed;
-	top: 0;
-	left: 0;
-    min-height: 100%;
-    min-width: 100%;
-    overflow: hidden;
-
+	font-size: 0.6em;
 }
-@supports not (-webkit-overflow-scrolling: touch) {
-	@media (min-width: 768px){
-		section.banner .before {
-			background: url("../img/banner.jpeg") 0 0 no-repeat fixed;
-			background-size: cover;
-			color: white;
-			font-size: 0.6em;
-		}
-	}
-}
-
 
 section.banner .arrow {
 	display: block;
@@ -442,20 +426,16 @@ section.banner .social a {
 	section.banner .before {
 		padding: 70% 0 0 0;
 	}
-
 	section.banner h1 {
 		font-size: 2.3em;
 	}
-
 	section.banner p br {
 		display: none;
 	}
-
 	section.banner .social {
 		padding: 0.75em 1em;
 		font-size: 22px;
 	}
-
 	section.banner .container .text {
 		padding: 0 1em 64px;
 	}
@@ -465,31 +445,25 @@ section.banner .social a {
 	section.banner {
 		font-size: 16px;
 	}
-
 	section.banner .arrow {
 		bottom: 160px;
 	}
-
 	section.banner .container {
 		width: auto;
 	}
-
 	section.banner .social {
 		padding: 1.35em 0;
 	}
-
 	section.banner .container .text {
 		display: table-cell;
 		vertical-align: middle;
 		padding: 0 1em 100px;
 	}
-
 	section.banner .container .text h1 {
 		-webkit-animation: fade-drop 1.75s 1;
 		-o-animation: fade-drop 1.75s 1;
 		animation: fade-drop 1.75s 1;
 	}
-
 	section.banner .container .text p {
 		-webkit-animation: fade 2s 1;
 		-o-animation: fade 2s 1;
@@ -503,11 +477,9 @@ section.banner .social a {
 		max-height: 740px;
 		overflow: hidden;
 	}
-
 	section.banner .before {
 		padding: 60% 0 0 0;
 	}
-
 	section.banner h1 em {
 		font-size: 1.4em;
 	}
@@ -517,14 +489,13 @@ section.banner .social a {
 	section.banner {
 		font-size: 26px;
 	}
-
 	section.banner .arrow {
 		bottom: 260px;
 	}
 }
 
 @keyframes fade-drop {
-	0%{
+	0% {
 		-webkit-transform: translate3d(0, -2em, 0);
 		-ms-transform: translate3d(0, -2em, 0);
 		-o-transform: translate3d(0, -2em, 0);
@@ -550,7 +521,7 @@ section.banner .social a {
 }
 
 @-webkit-keyframes fade-drop {
-	0%{
+	0% {
 		-webkit-transform: translate3d(0, -2em, 0);
 		-ms-transform: translate3d(0, -2em, 0);
 		-o-transform: translate3d(0, -2em, 0);
@@ -576,7 +547,7 @@ section.banner .social a {
 }
 
 @-o-keyframes fade-drop {
-	0%{
+	0% {
 		-webkit-transform: translate3d(0, -2em, 0);
 		-ms-transform: translate3d(0, -2em, 0);
 		-o-transform: translate3d(0, -2em, 0);
@@ -602,29 +573,39 @@ section.banner .social a {
 }
 
 @keyframes fade {
-	0% { opacity: 0; }
-	60% { opacity: 0; }
-	100% { opacity: 1; }
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @-webkit-keyframes fade {
-	0% { opacity: 0; }
-	60% { opacity: 0; }
-	100% { opacity: 1; }
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @-o-keyframes fade {
-	0% { opacity: 0; }
-	60% { opacity: 0; }
-	100% { opacity: 1; }
-}
-
-section {
-	background: #ededed;
-	/*background: #f5f5f3;*/
-	text-align: center;
-	padding: 1em;
-	font-size: 16px;
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 section .container {
@@ -650,22 +631,21 @@ section p {
 		font-size: 20px;
 		padding: 3em 1em;
 	}
+	#contact b {
+		font-size: 20px;
+	}
 }
 
 @media (min-width: 960px) {
 	section {
 		font-size: 24px;
 	}
-
 	section p {
 		max-width: none;
 		margin: 0 auto;
 	}
-}
-
-@media (min-width: 1200px) {
-	section {
-		padding: 5em 1em;
+	#contact b {
+		font-size: 24px;
 	}
 }
 
@@ -673,23 +653,7 @@ section#why {
 	padding: 1em;
 	color: white;
 	background: url("../img/why-banner.jpeg") 0 0 no-repeat fixed;
-	top: 0;
-	left: 0;
-	min-height: 100%;
-	min-width: 100%;
 }
-
-@supports not (-webkit-overflow-scrolling: touch) {
-	@media (min-width: 768px){
-		section#why {
-			background: url("../img/why-banner.jpeg") 0 0 no-repeat fixed;
-			background-size: cover;
-			color: white;
-		}
-	}
-}
-
-
 
 section#why h1 {
 	color: white;
@@ -707,31 +671,38 @@ section#why h1 {
 	}
 }
 
-#leadership article {
+article {
 	padding: 0 0 2em 0;
 }
 
-#leadership article .image {
+.image {
 	border-radius: 50%;
 	overflow: hidden;
 	margin: 0 auto 1em auto;
 	max-width: 240px;
+	
 }
 
-#leadership article .image img {
+.image img {
 	width: 100%;
 	height: auto;
 	display: block;
+
 }
 
-#leadership article .name {
+.customer {
+	border-radius: 0%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+article .name {
 	color: #1f1e1e;
 	font-family: "Montserrat";
 	font-size: 1.4em;
 	margin: 0 0 0.5em 0;
 }
 
-#leadership article .title {
+article .title {
 	text-transform: uppercase;
 	color: #c40000;
 	font-family: "Montserrat";
@@ -739,7 +710,7 @@ section#why h1 {
 	margin: 0 0 1.5em 0;
 }
 
-#leadership article p {
+article p {
 	max-width: 25em;
 	margin: 0 auto 1em;
 }
@@ -748,51 +719,34 @@ section#why h1 {
 	#leadership {
 		padding: 3em 1em;
 	}
-
 	#leadership h1 {
 		margin: 1em 0 2em 0;
 	}
-
 	#leadership .container {
 		overflow: hidden;
 		max-width: 1200px;
 	}
-
 	#leadership article {
 		width: 40%;
 		margin: 0 5%;
 		float: left;
 	}
-
-	#leadership article .name {
+	.name {
 		font-size: 1.2em;
 	}
-
 	#leadership article .title {
 		font-size: 0.8em;
 	}
 }
 
-@media (min-width: 1200px) {
-	#leadership article .image {
-		max-width: 298px;
-	}
-}
-
-
 #contact {
 	background-color: #1e1a1b;
-	top: 0;
-	left: 0;
-    min-height: 100%;
-    min-width: 100%;
-    overflow: hidden;
 	color: white;
 	font-size: 16px;
 }
 
 @supports not (-webkit-overflow-scrolling: touch) {
-	@media (min-width: 768px){
+	@media (min-width: 768px) {
 		#contact {
 			background: url("../img/contact-banner.jpeg") 50% 0 no-repeat fixed;
 			background-size: cover;
@@ -802,8 +756,6 @@ section#why h1 {
 	}
 }
 
-
-
 #contact .social {
 	float: right;
 	padding: 4px 0;
@@ -811,20 +763,19 @@ section#why h1 {
 
 #contact .container {
 	padding: 0 0 60px 0;
+	
 }
 
 #contact h1 {
 	font-size: 1em;
 	font-weight: 700;
 	color: white;
-	/*text-transform: uppercase;*/
 }
 
 #contact h2 {
-	font-size: 1.0em;
+	font-size: 1.2em;
 	font-weight: 700;
 	color: white;
-	/*text-transform: uppercase;*/
 }
 
 #contact form {
@@ -851,14 +802,6 @@ section#why h1 {
 	transition: border 0.2s;
 	width: 100%;
 	color: #FFFFFF;
-}
-
-*/ added in to allow button for email to be larger */
-
-#contact b {
-	font-weight: 600;
-	font-size: 2em;
-	color: green;
 }
 
 #contact form textarea {
@@ -917,7 +860,6 @@ footer {
 	font-family: "Montserrat";
 	height: 60px;
 	line-height: 60px;
-	/*text-transform: uppercase;*/
 	color: white;
 	font-weight: 600;
 	background: #1e1a1b;
@@ -928,7 +870,6 @@ footer {
 	#contact {
 		padding: 5em 1em 2em;
 	}
-
 	#contact h1 {
 		font-size: 5em;
 		margin: 0.5em 0;
@@ -945,5 +886,34 @@ footer {
 @media (min-width: 1200px) {
 	#contact {
 		padding: 7em 1em 2em;
+	}
+}
+
+section {
+	background: #ededed;
+	text-align: center;
+	padding: 1em;
+	font-size: 16px;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 2.3em;
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+@media (min-width: 768px) {
+		section {
+			background-size: cover;
+		}
+	}
+}
+@media (min-width: 768px) {
+	h1 {
+		font-size: 1.4em;
 	}
 }
